@@ -1,0 +1,91 @@
+﻿<Window x:Class="Course_work_TIPIS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        MinHeight="350" MinWidth="450" Width="350" Height="350" MaxHeight="350" MaxWidth="450" Title="Симплекс-алгоритм" FontSize="16">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="66*"></RowDefinition>
+            <RowDefinition Height="59*"></RowDefinition>
+            <RowDefinition Height="87*"></RowDefinition>
+            <RowDefinition Height="109*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Padding="5" BorderBrush="AliceBlue" BorderThickness="5" Grid.Row="0" Margin="0,0,0.2,4.6">
+            <StackPanel>
+                <RadioButton Name="RDB_ChooseVariant" Content="Выбрать из вариантов" IsChecked="True" Click="RDBTN_ChooseVariant_Click">
+                </RadioButton>
+                <RadioButton Name="RDB_CreateVariant" Content="Создать свой вариант" Click="RDBTN_CreateVariant_Click">
+                </RadioButton>
+            </StackPanel>
+        </Border>
+        <Border Name="BRD_ChooseVariant" Margin="0,1.4,0.2,4.8" Padding="5" BorderBrush="Red" BorderThickness="5" Grid.Row="1">
+            <DockPanel>
+                <Label Content="Укажите вариант"></Label>
+                <TextBox Name="TB_WriteVariant"></TextBox>
+            </DockPanel>
+        </Border>
+        <Border Name="BRD_CreateOwnVariant" Grid.Row="2" BorderBrush="CadetBlue" BorderThickness="5" Margin="0,2.2,0.2,12">
+                <StackPanel>
+                    <DockPanel>
+                        <Label Content="Укажите число переменных:" Width="223"></Label>
+                        <ComboBox IsEnabled="False" HorizontalAlignment="Right" Name="CMBB_ElementsNumber" SelectedIndex="0" MinWidth="50" Width="70">
+                            <ComboBox.Items>
+                                <ComboBoxItem>
+                                    2
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    3
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    4
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    5
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    6
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    7
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    8
+                                </ComboBoxItem>
+                            </ComboBox.Items>
+                        </ComboBox>
+                    </DockPanel>
+                    <DockPanel>
+                        <Label Content="Введите число условий:" Width="223"></Label>
+                        <ComboBox IsEnabled="False" HorizontalAlignment="Right" Name="CMBB_ConditionsNumber" SelectedIndex="0" MinWidth="50" Width="70">
+                            <ComboBox.Items>
+                                <ComboBoxItem>
+                                    2
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    3
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    4
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    5
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    6
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    7
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    8
+                                </ComboBoxItem>
+                            </ComboBox.Items>
+                        </ComboBox>
+                    </DockPanel>
+                </StackPanel>
+        </Border>
+
+        <Border BorderBrush="AliceBlue" BorderThickness="5" Grid.Row="3" Margin="0,6,0.2,-0.2">
+            <Button Content="Создать систему уравнений" Click="Button_CreateConditions"/>
+        </Border>
+    </Grid>
+</Window>

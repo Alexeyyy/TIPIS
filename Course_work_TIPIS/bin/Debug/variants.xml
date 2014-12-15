@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Variant number="5">
+	<TargetFunction coefficients="18|27|39"/>
+	<Condition coefficients="5|15|12" sign="<=" freeMember="130"/>
+	<Condition coefficients="1|1|1" sign="=" freeMember="12">
+	<Condition coefficients="1|0|0" sign="=>" freeMember="4">
+	<Condition coefficients="1|0|0" sign="<=" freeMember="5">
+</Variant>
+<Variant number="9">
+	<TargetFunction coefficients="31|20|15"/>
+	<Condition coefficients="10|12|17" sign="<=" freeMember="100"/>
+	<Condition coefficients="1|1|1" sign="=" freeMember="6">
+	<Condition coefficients="0|0|1" sign="=>" freeMember="1,5f">
+	<Condition coefficients="0|0|1" sign="<=" freeMember="2,5f">
+</Variant>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="Course_work_TIPIS.AdvanceDicisionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Симплекс-алгоритм" WindowStyle="SingleBorderWindow"  WindowState="Maximized">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument Name="FLDOC_AdvanceSolution">
+                <Paragraph TextAlignment="Center" FontSize="20" Foreground="DarkRed">
+                    Ход решения при поиске минимума функции симплекс-методом
+                </Paragraph>
+                <Paragraph>
+                    В результате преобразований была получена следующая таблица коэффициентов:
+                </Paragraph>
+                <Section Name="SECT_Tables">
+
+                </Section>
+                <Paragraph>
+                    <Run Name="RUN_Answer">
+                        
+                    </Run>
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>     
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\bin\Debug\Course_work_TIPIS.exe.config
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\bin\Debug\Course_work_TIPIS.exe
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\bin\Debug\Course_work_TIPIS.pdb
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\Simplex-algorithm_TIPIS.csprojResolveAssemblyReference.cache
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\AdvanceDicisionWindow.baml
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\DecisionWindow.baml
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\MainWindow.baml
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\AdvanceDicisionWindow.g.cs
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\DecisionWindow.g.cs
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\MainWindow.g.cs
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\App.g.cs
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\Course_work_TIPIS_MarkupCompile.cache
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\Course_work_TIPIS.g.resources
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\Course_work_TIPIS.Properties.Resources.resources
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\Simplex-algorithm_TIPIS.csproj.GenerateResource.Cache
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\Course_work_TIPIS.exe
+F:\Университет\3 курс\1_семестр\Предметы\ТИПИС\Курсовая работа\Желепов\Course_work_TIPIS\Course_work_TIPIS\obj\Debug\Course_work_TIPIS.pdb

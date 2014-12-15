@@ -1,0 +1,32 @@
+﻿<Window x:Class="Course_work_TIPIS.DecisionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Симплекс-алгоритм" Height="450" MinWidth="600" Width="600" Loaded="Window_Loaded" Closed="DecisionWindow_Closed" FontSize="16">
+    <ScrollViewer>
+        <StackPanel>
+            <TextBlock Name="LB_typeInformation" Padding="5" TextWrapping="Wrap" Foreground="DarkRed">
+                В сгенерированных ниже полях укажите коэффициенты, стоящие перед соответствующими переменными. 
+                Если коэффициент имеет вещественное значение, то целую часть от дробной необходимо отделить запятой, а не точкой (Пример: 1,5).  
+            </TextBlock>
+            
+            <StackPanel Name="STPAN_InitialTemplatesPanel">
+                
+            </StackPanel>
+
+            <StackPanel Margin="0 10 0 0" Name="STPAN_solutionContainer" Visibility="Collapsed">
+                <TextBlock HorizontalAlignment="Center" FontWeight="Bold" Padding="5" Foreground="DarkRed" TextWrapping="Wrap" TextAlignment="Center">Результат поиска минимума функции симплекс-алгоритмом</TextBlock>
+                <TextBlock Name="TBL_Solution" Padding="5" TextWrapping="Wrap"></TextBlock>
+            </StackPanel>
+                       
+            <Border BorderBrush="AliceBlue" BorderThickness="5" Margin="0 20 0 0">
+                <DockPanel>
+                    <DockPanel DockPanel.Dock="Top">
+                        <Button Name="BTN_Solve" Content="Решить" MinWidth="290" MinHeight="50" Click="BTN_Solve_Click"/>
+                        <Button Name="BTN_AdvanceSolution" Content="Показать ход решения" MinHeight="50" Click="BTN_AdvanceSolution_Click" IsEnabled="False"></Button>
+                    </DockPanel>
+                    <Button Name="BTN_Reset" DockPanel.Dock="Bottom" Content="Сбросить" MinHeight="50" Click="BTN_Reset_Click"></Button>
+                </DockPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

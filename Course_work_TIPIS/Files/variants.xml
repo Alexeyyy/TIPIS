@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variants>
+  <Variant number="1">
+    <TargetFunction coefficients="15|20|31"></TargetFunction>
+    <Condition coefficients="10|12|17" sign="less" freeMember="50"></Condition>
+    <Condition coefficients="1|1|1" sign="equal" freeMember="4"></Condition>
+    <Condition coefficients="1|0|0" sign="more" freeMember="1"></Condition>
+    <Condition coefficients="1|0|0" sign="less" freeMember="2"></Condition>
+  </Variant>    
+  <Variant number="4">
+    <TargetFunction coefficients="40|30|20"></TargetFunction>
+    <Condition coefficients="3|5|10" sign="less" freeMember="110"></Condition>
+    <Condition coefficients="1|1|1" sign="equal" freeMember="10"></Condition>
+    <Condition coefficients="1|0|0" sign="more" freeMember="3"></Condition>
+    <Condition coefficients="1|0|0" sign="less" freeMember="4"></Condition>
+  </Variant>    
+  <Variant number="5">
+    <TargetFunction coefficients="18|27|39"></TargetFunction>
+    <Condition coefficients="5|15|12" sign="less" freeMember="130"></Condition>
+    <Condition coefficients="1|1|1" sign="equal" freeMember="12"></Condition>
+    <Condition coefficients="1|0|0" sign="more" freeMember="4"></Condition>
+    <Condition coefficients="1|0|0" sign="less" freeMember="5"></Condition>
+  </Variant>
+  <Variant number="9">
+    <TargetFunction coefficients="31|20|15"></TargetFunction>
+    <Condition coefficients="10|12|17" sign="less" freeMember="100"></Condition>
+    <Condition coefficients="1|1|1" sign="equal" freeMember="6"></Condition>
+    <Condition coefficients="0|0|1" sign="more" freeMember="1,5"></Condition>
+    <Condition coefficients="0|0|1" sign="less" freeMember="2,5"></Condition>
+  </Variant>
+  <Variant number="14">
+    <TargetFunction coefficients="27|23|13"></TargetFunction>
+    <Condition coefficients="5|5|17" sign="less" freeMember="150"></Condition>
+    <Condition coefficients="1|1|1" sign="equal" freeMember="15"></Condition>
+    <Condition coefficients="0|0|1" sign="more" freeMember="3"></Condition>
+    <Condition coefficients="0|0|1" sign="less" freeMember="4"></Condition>
+  </Variant>
+  <Variant number="22">
+    <TargetFunction coefficients="21|51|31"></TargetFunction>
+    <Condition coefficients="5|9|9" sign="less" freeMember="100"></Condition>
+    <Condition coefficients="1|1|1" sign="equal" freeMember="13"></Condition>
+    <Condition coefficients="0|0|1" sign="more" freeMember="3,5"></Condition>
+    <Condition coefficients="0|0|1" sign="less" freeMember="4,5"></Condition>
+  </Variant>
+</Variants>
